@@ -2,14 +2,14 @@
 
 A minimal VitePress documentation site.
 
-## Development
+## 🚀 Development
 
 ```bash
 pnpm install
 pnpm docs:dev
 ```
 
-## Build
+## 📦 Build
 
 ```bash
 pnpm docs:build
