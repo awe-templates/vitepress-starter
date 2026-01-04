@@ -63,7 +63,7 @@ jobs:
         run: pnpm install
 
       - name: Build with VitePress
-        run: pnpm docs:build
+        run: pnpm build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -98,5 +98,6 @@ export default defineConfig({
 Push to the `main` branch to trigger a deployment. You can also manually trigger it from the **Actions** tab.
 
 Your site will be available at:
+
 - `https://<username>.github.io/<repository-name>/`
 - Or `https://<username>.github.io/` for user/org sites

@@ -19,7 +19,7 @@ npm install
 Start the development server:
 
 ```bash
-npm run docs:dev
+npm run dev
 ```
 
 The site will be available at `http://localhost:5173`.
@@ -29,18 +29,18 @@ The site will be available at `http://localhost:5173`.
 Build the static site:
 
 ```bash
-npm run docs:build
+npm run build
 ```
 
 Preview the built site:
 
 ```bash
-npm run docs:preview
+npm run preview
 ```
 
 ## Project Structure
 
-```
+```txt
 .
 ├── docs
 │   ├── .vitepress
