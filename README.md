@@ -6,11 +6,11 @@ A minimal VitePress documentation site.
 
 ```bash
 pnpm install
-pnpm docs:dev
+pnpm dev
 ```
 
 ## 📦 Build
 
 ```bash
-pnpm docs:build
+pnpm build
 ```

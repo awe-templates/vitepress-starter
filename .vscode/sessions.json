@@ -11,7 +11,7 @@
         "autoExecuteCommands": true,
         "icon": "server-environment",
         "color": "terminal.ansiGreen",
-        "commands": ["pnpm docs:dev"]
+        "commands": ["pnpm dev"]
       }
     ]
   }
