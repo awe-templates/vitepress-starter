@@ -21,3 +21,10 @@ features:
   - title: Customizable
     details: Easily customize the look and feel with themes and CSS.
 ---
+
+## LLM-Friendly Documentation
+
+This site supports the [llms.txt](https://llmstxt.org/) standard for AI-friendly documentation:
+
+- [`/llms.txt`](/llms.txt) - Documentation index
+- [`/llms-full.txt`](/llms-full.txt) - Complete documentation in a single file
