@@ -17,8 +17,16 @@ export default defineConfig({
   title: "My Documentation",
   description: "A VitePress Site",
   base: "/vitepress-starter",
+  head: [
+    [
+      "link",
+      { rel: "icon", type: "image/svg+xml", href: "https://fav.farm/⚡" },
+    ],
+  ],
 
   themeConfig: {
+    logo: "https://fav.farm/⚡",
+
     nav: [
       { text: "Home", link: "/" },
       { text: "Guide", link: "/guide/" },
