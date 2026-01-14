@@ -31,6 +31,7 @@ export default defineConfig({
           { text: "Introduction", link: "/guide/" },
           { text: "Getting Started", link: "/guide/getting-started" },
           { text: "Deploy to GitHub Pages", link: "/guide/deploy" },
+          { text: "LLMs.txt", link: "/guide/llms-txt" },
         ],
       },
     ],
