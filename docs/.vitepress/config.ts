@@ -1,6 +1,19 @@
 import { defineConfig } from "vitepress";
+import llmstxt, {
+  copyOrDownloadAsMarkdownButtons,
+} from "vitepress-plugin-llms";
 
 export default defineConfig({
+  vite: {
+    plugins: [llmstxt()],
+  },
+
+  markdown: {
+    config(md) {
+      md.use(copyOrDownloadAsMarkdownButtons);
+    },
+  },
+
   title: "My Documentation",
   description: "A VitePress Site",
   base: "/vitepress-starter",
