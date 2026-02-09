@@ -15,5 +15,8 @@
     "onlyBuiltDependencies": [
       "esbuild"
     ]
+  },
+  "dependencies": {
+    "vitepress-mermaid-renderer": "^1.1.8"
   }
 }

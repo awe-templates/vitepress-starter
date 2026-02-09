@@ -52,6 +52,18 @@ npm run preview
 └── package.json
 ```
 
+## Mermaid Diagram Example
+
+```mermaid
+graph TD
+    A[Install Dependencies] --> B[Configure VitePress]
+    B --> C[Start Dev Server]
+    C --> D{Happy with changes?}
+    D -->|Yes| E[Build for Production]
+    D -->|No| C
+    E --> F[Deploy]
+```
+
 ## Next Steps
 
 - Customize the theme in `.vitepress/config.ts`
