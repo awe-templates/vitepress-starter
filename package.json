@@ -8,15 +8,13 @@
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "2.0.0-alpha.15",
+    "vitepress": "2.0.0-alpha.16",
+    "vitepress-mermaid-renderer": "^1.1.8",
     "vitepress-plugin-llms": "^1.10.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"
     ]
-  },
-  "dependencies": {
-    "vitepress-mermaid-renderer": "^1.1.8"
   }
 }
